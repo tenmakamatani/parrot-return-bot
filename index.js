@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 
 app.post("/hook", (req, res) => {
     res.json({
-        test: "deploy test"
+        test: "test"
     });
 });
 
