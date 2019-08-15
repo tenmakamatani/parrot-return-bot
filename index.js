@@ -39,7 +39,7 @@ async function echoman(ev) {
     const pro = await client.getProfile(ev.source.userId);
     return client.replyMessage(ev.replyToken, {
         type: "text",
-        text: `${pro.displayName}さん、今「${ev.message.text}」って言いましたよね？`
+        text: `${pro.displayName}さん、今「${ev.message.text}」って言いましたよね！？`
     });
 }
 
