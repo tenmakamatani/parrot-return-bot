@@ -19,6 +19,7 @@
     },
     "homepage": "https://github.com/tenmakamatani/line-bot#readme",
     "dependencies": {
+        "@line/bot-sdk": "^6.8.2",
         "express": "^4.17.1"
     }
 }
