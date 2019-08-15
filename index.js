@@ -20,10 +20,8 @@ app.get("/", (req, res) => {
 });
 
 app.post("/hook", line.middleware(config), (req, res) => {
-    res.json({
-        test: "test"
-    });
-    console.log(passed);
+    res.status(200).end();
+    console.log("passed");
 });
 
 app.listen(PORT, () => {
